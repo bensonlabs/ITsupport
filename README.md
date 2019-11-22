@@ -1,5 +1,5 @@
 # IT support
-Known-good troubleshooting tips and tools for desktop support issues.
+Known-good troubleshooting tools and tips for desktop support issues.
 
 Apple
 ESET
