@@ -1,2 +1,2 @@
 # ITsupport
-Known-good troubleshooting tips and tools
+Known-good troubleshooting tips and tools for desktop support issues.
