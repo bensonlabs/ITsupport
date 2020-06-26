@@ -14,6 +14,6 @@ defaults delete com.google.Chrome DefaultSearchProviderSearchURL
 defaults delete com.google.Chrome DefaultSearchProviderNewTabURL
 defaults delete com.google.Chrome DefaultSearchProviderName
 
-#Now restart Chrome and the issue should be resolved. If not, you may need to restart your Mac.
+echo "Now restart Chrome and the issue should be resolved. If not, you may need to restart your Mac."
 
 #https://support.google.com/chrome/thread/9350623?hl=en
