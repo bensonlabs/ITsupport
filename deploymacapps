@@ -1,0 +1,33 @@
+#!/bin/bash
+
+# Open Terminal
+# Navigate to /Volumes/deploymacapss (or USB name)
+# sudo ./install.sh
+
+# click through Office 365 prompts (auto update, etc)
+
+# drag Chrome to Applications folder
+# Drag Chrome alias to the dock
+
+
+-----------
+# Failed attempts at downloading Chrome
+
+# Download the Google Chrome .dmg file
+curl -O https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
+
+# Mount the disk image
+hdiutil mount googlechrome.dmg
+
+# Install the application
+sudo cp -r "/Volumes/Google Chrome/Google Chrome.app" /Applications/
+
+# Unmount the disk image
+hdiutil unmount "/Volumes/Google Chrome/"
+
+# Remove the downloaded .dmg file
+rm googlechrome.dmg
+
+echo "Google Chrome has been installed."
+
+
